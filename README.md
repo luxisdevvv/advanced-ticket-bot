@@ -1,4 +1,4 @@
-# Ticket Bot
+# Nova & LuxisDev Ticket Bot
 
 ## Kurulum
 
