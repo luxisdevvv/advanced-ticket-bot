@@ -25,6 +25,18 @@ module.exports = {
       console.log(chalk.hex('#ED4245')('Slash komutları kaydedilemedi!'));
       console.error(error);
     }
+    
+    // luxisdev
+    console.log(chalk.hex('#5865F2')(' _                         _________ _______  ______   _______'));
+    console.log(chalk.hex('#5865F2')('( \\      |\\     /||\\     /|\\__   __/(  ____ \\(  __  \\ (  ____ \\|\\     /|'));
+    console.log(chalk.hex('#5865F2')('| (      | )   ( |( \\   / )   ) (   | (    \\/| (  \\  )| (    \\/| )   ( |'));
+    console.log(chalk.hex('#5865F2')('| |      | |   | | \\ (_) /    | |   | (_____ | |   ) || (__    | |   | |'));
+    console.log(chalk.hex('#5865F2')('| |      | |   | |  ) _ (     | |   (_____  )| |   | ||  __)   ( (   ) )'));
+    console.log(chalk.hex('#5865F2')('| |      | |   | | / ( ) \\    | |         ) || |   ) || (       \\ \\_/ /'));
+    console.log(chalk.hex('#5865F2')('| (____/\\| (___) |( /   \\ )___) (___/\\____) || (__/  )| (____/\\  \\   /'));
+    console.log(chalk.hex('#5865F2')('(_______/(_______)|/     \\|\\_______/\\_______)(______/ (_______/   \\_/'));
+    console.log('');
+    
     console.log(
       chalk.bgHex('#5865F2').white.bold(' [Luxis Ticket] ') +
       chalk.hex('#57F287')(` Bot Aktif! `) +
@@ -47,4 +59,4 @@ module.exports = {
       chalk.hex('#FEE75C')('---------------------------------------------')
     );
   },
-}; 
+};
